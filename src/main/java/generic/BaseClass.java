@@ -15,13 +15,13 @@ import pomclasses.LoginPage;
 public class BaseClass {
 	public WebDriver driver;
 	ReadDataFromprop r=new ReadDataFromprop();
-	@BeforeClass(groups={"smoke,regression"})
+	@BeforeClass(groups={"smoke","regression"})
 	public void browserLaunch()
 	{
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 	}
-	@BeforeMethod(groups={"smoke,regression"})
+	@BeforeMethod(groups={"smoke","regression"})
 	public void Login() throws IOException, InterruptedException
 	{
 		String url=r.readData_FromProperty("url");
@@ -31,13 +31,13 @@ public class BaseClass {
 		driver.get(url);
 		lp.login(un,pwd);
 	}
-	@AfterMethod(groups={"smoke,regression"})
+	@AfterMethod(groups={"smoke","regression"})
 	public void logout() throws Exception
 	{
 		HomePage hp=new HomePage(driver);
 		hp.logout();
 	}
-	@AfterClass(groups={"smoke,regression"})
+	@AfterClass(groups={"smoke","regression"})
 	public void browserclose()
 	{
 		driver.close();
