@@ -2,31 +2,31 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-10T17:47:01 IST" name="Suite" finished-at="2023-01-10T17:47:33 IST" duration-ms="32524">
+  <suite started-at="2023-01-10T20:41:28 IST" name="Suite" finished-at="2023-01-10T20:42:22 IST" duration-ms="54720">
     <groups>
       <group name="regression">
         <method signature="Additems_test.printElements()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" name="printElements" class="swaglab_TestScripts.Additems_test"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2023-01-10T17:47:01 IST" name="Test" finished-at="2023-01-10T17:47:33 IST" duration-ms="32524">
+    <test started-at="2023-01-10T20:41:28 IST" name="Test" finished-at="2023-01-10T20:42:22 IST" duration-ms="54720">
       <class name="swaglab_TestScripts.Additems_test">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T17:47:01 IST" name="browserLaunch" finished-at="2023-01-10T17:47:23 IST" duration-ms="22056" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T20:41:28 IST" name="browserLaunch" finished-at="2023-01-10T20:42:10 IST" duration-ms="42346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T17:47:23 IST" name="Login" finished-at="2023-01-10T17:47:28 IST" duration-ms="5349" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T20:42:10 IST" name="Login" finished-at="2023-01-10T20:42:18 IST" duration-ms="7453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="printElements()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T17:47:28 IST" name="printElements" finished-at="2023-01-10T17:47:29 IST" duration-ms="590" status="PASS">
+        <test-method signature="printElements()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T20:42:18 IST" name="printElements" finished-at="2023-01-10T20:42:18 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printElements -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T17:47:29 IST" name="logout" finished-at="2023-01-10T17:47:33 IST" duration-ms="3712" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T20:42:18 IST" name="logout" finished-at="2023-01-10T20:42:21 IST" duration-ms="3355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T17:47:33 IST" name="browserclose" finished-at="2023-01-10T17:47:33 IST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:swaglab_TestScripts.Additems_test@5a5a729f]" started-at="2023-01-10T20:42:21 IST" name="browserclose" finished-at="2023-01-10T20:42:22 IST" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
